@@ -47,12 +47,13 @@
                 "Standard_DS11",
                 "Standard_DS12",
                 "Standard_DS13",
-                "Standard_DS14"
+                "Standard_DS14",
+                "Standard_D2s_v3"
             ],
             "metadata": {
                 "description": "The size of the Web Server VMs Created"
             },
-            "defaultValue": "Standard_DS2"
+            "defaultValue": "Standard_D2s_v3"
         },
         "numberOfWebSrvs": {
             "type": "int",
@@ -75,12 +76,13 @@
                 "Standard_DS11",
                 "Standard_DS12",
                 "Standard_DS13",
-                "Standard_DS14"
+                "Standard_DS14",
+                "Standard_D2s_v3"
             ],
             "metadata": {
                 "description": "The size of the SQL VM Created"
             },
-            "defaultValue": "Standard_DS3"
+            "defaultValue": "Standard_D2s_v3"
         },
         "diskType": {
             "type": "string",
